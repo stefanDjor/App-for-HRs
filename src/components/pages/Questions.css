@@ -1,0 +1,167 @@
+.questions-container {
+  color: white;
+  display: flex;
+  gap: 50px;
+}
+.questions-right-side {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+.questions-place {
+  border: 3px solid green;
+  border-radius: 7px;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+}
+.questions-title-big {
+  padding-bottom: 20px;
+}
+.questions-place-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.questions-place-right {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 75px;
+  font-family: "Comic Neue", sans-serif;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+}
+
+.title-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.add-questions {
+  max-width: 100%;
+  border: none;
+  padding: 15px;
+  font-family: "Comic Neue", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  height: 100%;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.questions-place-start {
+  display: flex;
+  align-items: center;
+}
+.sa {
+  font-size: 18px;
+}
+
+.questions-place-start {
+  display: flex;
+  gap: 10px;
+}
+
+.spinner-questions {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  padding: 100px 100px;
+  padding-top: 0px;
+}
+
+.title-add-new {
+  color: white;
+}
+.container-edit {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.questions-add {
+  display: flex;
+  gap: 50px;
+}
+.left-bar-companyinfo {
+  color: white;
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  height: 100vh;
+}
+
+.form-add-new {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title-questions-text {
+  font-size: 18px;
+  color: white;
+}
+
+.input-add-text {
+  border: 3px solid green;
+  width: 100%;
+}
+.btn-save-add-new {
+  font-family: "Comic Neue", sans-serif;
+  font-size: 18px;
+  border: none;
+}
+.btn-save-right {
+  display: flex;
+  justify-content: end;
+}
+
+
+
+
+@media only screen and (max-width: 850px) {
+  .questions-place-right {
+    flex-direction: column;
+  }
+  .add-questions {
+    width: 130px;
+    padding: 8px;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 440px) {
+  .questions-right-side {
+    align-items: center;
+  }
+
+  .questions-place {
+    width: 90%;
+  }
+}

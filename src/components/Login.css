@@ -1,0 +1,224 @@
+main {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-top: 55px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  width: 25rem;
+  max-width: 370px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  margin-top: 50px;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.choose-file {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px;
+  color: black;
+}
+input[type="file"]::file-selector-button {
+  /* border: 2px solid #6c5ce7; */
+  padding: 0.2em 0.4em;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-family: "Comic Neue", sans-serif;
+  transition: 1s;
+  cursor: pointer;
+}
+input[type="file"]::file-selector-button:hover {
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+}
+
+.radio-btn {
+  display: flex;
+  gap: 50px;
+}
+
+.role {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  height: 40px;
+  padding-left: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid green;
+  font-family: "Comic Neue", sans-serif;
+  border-radius: 5px;
+}
+input::placeholder {
+  font-size: 16px;
+  color: #7b7b7b;
+}
+
+.login-page__actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  color: white;
+}
+
+.button {
+  width: 85px;
+  height: 29px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-family: "Comic Neue", sans-serif;
+  transition: 1s;
+}
+.button:hover {
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+}
+
+.page-links {
+  display: flex;
+  gap: 32px;
+}
+.acc-text {
+  font-size: 22px;
+  padding-top: 7px;
+}
+.select-role {
+  font-size: 18px;
+}
+.inp-check {
+  font-size: 18px;
+}
+.inp-check-photo {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.title-email-pass {
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.admin-user {
+  font-size: 15px;
+}
+
+.error-message {
+  color: red;
+  font-size: 20px;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.company-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-company {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  font-family: "Comic Neue", sans-serif;
+  cursor: pointer;
+  transition: 1s;
+}
+.button-company:hover {
+  background-color: white;
+  color: green;
+}
+
+.company-modal {
+  display: flex;
+  flex-direction: column;
+  padding: 13px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  gap: 8px;
+}
+.button-modal {
+  align-self: flex-end;
+}
+
+.light-text {
+  color: gray;
+}
+
+
+
+
+
+@media only screen and (max-width: 770px){
+  section {
+    margin-top: 120px;
+  }
+
+  .sec-reg {
+    margin-top: 50px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 420px){
+  main {
+    width: 100%;
+  }
+
+  section {
+    align-items: center;
+    width: 85%;
+  }
+
+  .form {
+    width: 100%;
+    gap: 18px;
+  }
+
+  .acc-text {
+    font-size: 16px;
+  }
+
+  .sec-reg {
+    margin-top: 0px;
+  }
+}
